@@ -48,7 +48,7 @@ header {width: 100vw;
                   justify-content: center;}
 
 .carousel {width: 30vw;
-           height: 30vw; }
+           height:30vw; }
 
 .section_presentacion {display: flex;
                        flex-direction: column;
@@ -142,6 +142,6 @@ footer {width: 100vw;
            .logo {width: auto; padding-left: 2rem;}
            .titulo {font-size: 1.5rem}
            .contlogo {margin-left: 2rem; }
-           .contnav {margin-right: 0.5rem;
-                     }
+           .contnav {margin-right: 0.5rem;}
+           .carousel {width: 75vw; height: 75vw}
         }
