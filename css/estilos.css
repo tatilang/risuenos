@@ -138,9 +138,10 @@ footer {width: 100vw;
 /**para pantallas de celular**/
 @media (max-width:700px){
            .wsp {display: none;}
-           .nav {font-size: 1rem;}
-           .logo {width: auto;}
+           .nav {font-size: 1rem;display: flex; flex-direction: column; align-items: stretch;}
+           .logo {width: auto; padding-left: 2rem;}
            .titulo {font-size: 1.5rem}
-           .contlogo {margin:1.5rem}
-           .contnav {margin-right: 0.5rem;}
+           .contlogo {margin-left: 2rem; }
+           .contnav {margin-right: 0.5rem;
+                     }
         }
