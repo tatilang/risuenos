@@ -141,5 +141,6 @@ footer {width: 100vw;
            .nav {font-size: 1rem;}
            .logo {width: auto;}
            .titulo {font-size: 1.5rem}
-           .contlogo {margin:1rem}
+           .contlogo {margin:1.5rem}
+           .contnav {margin-right: 0.5rem;}
         }
