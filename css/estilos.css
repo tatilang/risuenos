@@ -1,0 +1,131 @@
+body {background-color:#ABEBC6;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100vw}
+
+main {display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;}
+
+header {width: 100vw;
+        height: 25vh;
+        border-style: inset;
+        background-color:#82E0AA;
+        display: flex;
+        justify-content: center;
+        justify-content:space-around;
+        align-items: center;}
+
+.contlogo {height: 100%;
+           width: 25%;
+           display: flex;
+          justify-content: center;
+          align-items: center;}
+
+.contnav {height: 100%;
+          width: 75%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          margin-right: 1.5rem;
+          }
+
+.nav {font-family: 'Amatic SC';
+      font-size: 2rem}
+
+.nav-link {color: #F06292}
+
+.logo {width: 50%;
+       height: 90%;}
+
+.titulo{font-family: 'Patrick Hand';
+        font-size: 2rem;}
+
+.section_carrusel {width: 100vw;
+                  display:flex;
+                  justify-content: center;}
+
+.carousel {width: 30vw;
+           height: 30vw; }
+
+.section_presentacion {display: flex;
+                       flex-direction: column;
+                       align-items: center;
+                       justify-content: center;
+                       background-color: #52BE80;
+                       width: 100vw;
+                       font-family: 'Josefin Slab';
+                       padding: 2rem;
+                       }
+
+.foto { width: 25%;
+      height: 25%}
+
+.comprar {display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-color: #52BE80;
+          width: 100vw;
+          font-family: 'Josefin Slab';
+          padding: 2rem;
+            }
+
+.red {width: 2rem;}
+
+footer {width: 100vw;
+        height: 10vh;
+        background-color:#ABEBC6;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+.autor {font-family: 'Josefin Slab';
+        font-size: 75%;
+        color: #52BE80}
+
+
+.container {display: flex;
+            justify-content: space-around;}
+
+.card {border: 5px;
+      border-color: white;
+      border-style: inset;
+      padding: 0.5rem;
+      margin:1rem;
+      text-align: center;}
+
+.wsp {width: 70px;
+      position: fixed;
+      bottom: 20px;
+      right: 35px}
+
+.face {width: 2rem;
+    }
+
+.insta {width: 2rem;
+       }
+
+.amigus {width: 100vw;
+        display: flex;
+       justify-content: center;
+       }
+
+.fotos {width: 30%;
+        margin: 1rem;}
+
+.anuncio {background-color:#52BE80;
+          text-align: center;
+          font-size: 3rem;
+          font-family: 'Amatic SC';}
+
+/**para pantallas de celular**/
+@media (max-width:700px){
+           .wsp {display: none;}
+           .nav {font-size: 1rem;}
+           .logo {width: auto;}
+           .titulo {font-size: 1.5rem}
+           .contlogo {margin:1rem}
+        }
